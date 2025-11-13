@@ -1,402 +1,161 @@
 # 20251113-test3
+<!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<title>SWIM EXPERIENCE HOME PAGE</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="競泳が速くなりたい選手のためのホームページです">
-<link rel="stylesheet" href="main_style.css"> <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> </head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OMORI YUJI OFFICIAL WEBSITE</title>
+
+  <style>
+    /* ====== 全体設定 ====== */
+    body {
+      font-family: "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fafafa;
+      color: #333;
+      line-height: 1.7;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+
+    /* ====== ヘッダー ====== */
+    header.header {
+      width: 960px;
+      height: 170px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo img {
+      height: 60px;
+    }
+
+    nav.nav {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+
+    nav.nav a {
+      padding: 8px 12px;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    nav.nav a:hover {
+      background: #ddd;
+    }
+
+    /* ====== トップセクション ====== */
+    .top {
+      text-align: center;
+      background: url("down.png") no-repeat center/cover;
+      color: #fff;
+      padding: 100px 0;
+    }
+
+    .top h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    .top p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    /* ====== コンテンツ ====== */
+    .content {
+      width: 960px;
+      margin: 40px auto;
+    }
+
+    h3 {
+      border-left: 5px solid #555;
+      padding-left: 10px;
+      margin-top: 40px;
+      font-size: 1.4rem;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+    }
+
+    /* ====== フッター ====== */
+    footer {
+      text-align: center;
+      background: #222;
+      color: #fff;
+      padding: 30px 0;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: #ffcc00;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
 
 <body>
-
-<header>
-  <a href="index.html" class="team logo"> <img src="team logo.png" alt="swim experience のロゴ">
-  </a>
-</header>
-
-<section class="hero">
-  <div class="hero-content"> 
-　<h2><strong> Life is tough, keep swimming.</strong><small>～人生は常に大変だ。でも水泳は速く美しく泳ぎたい～</small></h2>
-  </div>
-  <img src="down.png" alt="プールの底画像" class="hero-bg-image"> </section>
-
-<main>
-
-  <div class="marquee-container"> <h1 class="white">
-      <marquee behavior="scroll" direction="left">
-        スイム・イクスピリエンスとは   直訳すると、【競泳を体験・実感する】の意味です。
-        スイム・イクスピリエンスの活動を体験してもらい、選手の思い描く理想通りに、上手く、速くなる実感を持つサポートをいたします
-      </marquee>
-    </h1>
-  </div>
-
-  <div id="menubar">
-    <nav>
-      <ul>
-        <li><a href="index.html">ホーム<span>Home</span></a></li> <li><a href="#">スイム・イクスピリエンス<span>Drop Down</span></a>
-          <ul>
-            <li><a href="#">活動のきっかけ</a></li>
-            <li><a href="#">こんな悩みを持つ競泳選手は、ぜひご相談ください</a></li>
-            <li><a href="#">主な活動内容</a></li>
-            <li><a href="#">エクスペリエンスちゃんとは</a></li>
-            <li><a href="#">スイム・イクスピリエンスちゃんとは</a></li>
-            <li><a href="#">栃木のプールに棲む妖怪 バタフライジジイとは</a></li>
-            <li><a href="#">宇都宮スイムマスターズ連合<mark>（準備中）</mark></a></li>
-            <li><a href="#">お問い合わせ先</a></li>
-          </ul>
-        </li>
-      </ul>
-    </nav>
-  </div><div id="contents">
-    <section>
-      <h3>スイム・イクスピリエンスの活動と内容</h3>
-      <ul>
-      <h4>
-      <li>2025年7月から準備し、2026年より本格活動を計画中。</li>
-      <li>現在の活動は、「主な活動内容」の中の、<strong>①競泳選手傾向診断 ②レース動画解析</strong>の２つのみ、活動中です。</li>
-      <p>その他の活動においては、準備が整い次第、順次発信を行います。</p>
-      <p>スイム・イクスピリエンスの活動情報は、インスタグラムで閲覧可能です【後日、インスタＱＲを載せる】</p>
-      <h4>
-      <div class="list-normal3-parts">
-
-        <div class="list-parts">
-　　　　　<h3><strong>活動のきっかけ</strong></h3>
-          <figure><img src="before_start.png" alt="スタート前の準備画像"></figure>
-          <div class="text-parts">
-          <h4><p>●「競泳を通じた人格形成」<br>
-            ●「戦略的な考えを持って、練習から大会のレースまで、選手自身が構築できる」<br>
-            ●「競泳、スポーツを愛する選手であれば、身体の障害に関係なく競泳を楽しむ環境作り」<br>
-            を理念として、競泳、スポーツを愛しているが、悩みある選手たちに、スイムイクスピリエンスの経験・体験を通じて<br>
-            選手としてだけでなく、「人間」として成長してほしいとの願いから、スイムイクスピリエンスは誕生しました。</p>
-          </h4>
-          </div>
-          <span class="icon-bg1-parts">NEW</span> </div>
-
-        <div class="list-parts">
-          <h3><strong>こんな悩みを持つ競泳選手は、ぜひご相談ください</strong></h3>
-          <figure><img src="start1.png" alt="活動の出発点の画像"></figure>
-          <div class="text-parts">
-          <h4>  
-            <p>・レースでは、一緒のタイミングでスタートしているのに、なんであんなに<mark>差が付いてしまうのか？</mark></p>
-            <p>・私は、いつ、どのタイミングで、１番<mark>タイムが伸びるのだろうか？</mark></p>
-            <p>・今以上、これ以上<mark>タイムが縮まらない、伸びないのか？</mark></p>
-            <p>・成人、おじさん、おばさんは、もう何をやっても<mark>水泳が上手に、速くなれないのか？</mark></p>
-            <p>・水泳を続けているのに、なぜ私は、<mark>スイマー体型にならないのか？</mark></p>
-          </h4>
-            <div class="button_solid002">
-              <a href="#" class="button">
-                こんなお悩みの選手はクリック
-              </a>
-            </div>
-          </div>
-          </div>
-
-        <div class="list-parts"> <div class="text-parts">
-        <h3><strong>スイム・イクスピリエンスの主な活動内容</strong></h3>
-        <h4>
-            <p><strong>①競泳選手傾向診断</strong></p>
-            <p> 競泳選手に必要な要素を数値化して、選手自身の特性、速くなる、上手くなるポイントを</p>
-            <p> <strong><mark>把握・見える化</mark></strong>することで、<strong><mark>今後の練習や、モチベーションに反映</mark></strong>できます</p>
-        </h4>
-            <div class="button_solid002">
-              <a href="#" class="button"> 受診したい選手はクリック
-              </a>
-            </div>
-          </div>
-          </div>
-
-        <div class="list-parts"> <div class="text-parts"> <p><strong>②レース動画解析</strong></p>
-            <p>大会等で撮影された選手のレース動画を持ち込んでいただき</p>
-            <p>スイム・イクスピリエンスが、<strong><mark>客観的解析と、選手の良い点、今後のレースに生かす改善点</mark></strong></p>
-            <p>のアドバイスを行います</p>
-            <div class="button_solid002">
-              <a href="#" class="button">
-                依頼したい選手はクリック
-              </a>
-            </div>
-            <p><strong>③講習会<mark>（準備中）</mark></strong></p>
-            <p><strong>④練習会<mark>（準備中）</mark></strong></p>
-          </div>
-
-　　　　<div class="list-parts"> <div class="text-parts">
-　　　　　<h3> <p>宇都宮スイムマスターズ連合について</p></h3>
-          <figure><img src="USMF_HP.jpg" alt="USMF HP画像"></figure>
-          <div class="text-parts">
-          <h4>
-            <p>マスターズ会員や個人の選手で、「練習拠点や指導者、練習内容、スタート練習」などに課題や</p>      
-            <p>お悩みのお持ちの方がいらっしゃるとお声掛けいただき</p>
-            <p>水泳に関するお悩みを解決に導く<strong>マッチングハブ機能が必要</strong>との考えから</p>
-            <p>2026年から発足を開始します。</p>
-            <p>ご興味のある選手、チーム代表の方は、ぜひご相談ください</p>
-            <p>宇都宮スイムマスターズ連合の活動情報は、インスタグラムで閲覧可能です【後日、インスタＱＲを載せる】</p>
-         </h4>
-            <div class="button_solid002">
-              <a href="#" class="button">
-                加入、ご相談したい選手、チーム代表はクリック
-          <span class="icon-bg2-parts">UP</span>
-        </div>
-        </div>
-
-        <div class="list-parts">
-        <h3>エクスペリエンスちゃんとは？</h3>
-          <figure><img src="character.JPG" alt="エクスペリエンスちゃん画像"></figure>
-          <div class="text-parts">
-        <h4>  
-            <p>宇都宮市宝木町にある美容室 ヘアクリエイション エクスペリエンスのキャラクター。</p>
-            <p>スイム・イクスピリエンスちゃんとは、生き別れた弟。そら豆の形をした胎児です。</p>
-            <p>もっと詳しく知りたい方はこちら url:<a href="http://experience52.web.fc2.com/" target="_blank">http://experience52.web.fc2.com/</a></p>
-        </h4>
-        </div>
-        </div>
-
-        <div class="list-parts">
-          <h3>スイム・イクスピリエンスちゃんとは？</h3>
-          <figure><img src="swim expちゃん.jpg" alt="スイムイクスピリエンスちゃん画像"></figure>
-          <div class="text-parts">
-          <h4> 
-            <p>エクスペリエンスちゃんとは、生き別れた兄弟でお兄ちゃん。</p>
-            <p>上三川町の本郷地区の小学校に通う、見た目は胎児だが、実は小学４年生。</p>
-            <p>たまたま行ったプールで、バタフライジジイ（詳細は、次の事項をご確認ください）に出会い、泳ぐうちに、水泳の楽しさに目覚め、導かれる。</p>
-            <p>導かれてからは、泳ぐ力と速さが上がっていることを実感出来ているが</p>
-            <p>いざレースになると自分をコントロールしきれず、いまだ結果には結びついていない。</p>
-            <p>また、バタジイに導かれた影響なのかは不明だが、きちんと着用して泳いでも、泳ぎ終わるとゴーグルが吊り上がるようになった。</p>
-            <p>スイムイクスピリエンスちゃんの座右の銘は、<mark><strong>「嘘をつかない。人に迷惑をかけない。お友達には思いやりを持って接する」。</strong></mark></p>
-          </h4>
-        </div>
-        </div>
-
-        <div class="list-parts">
-          <h3><strong>栃木のプールに棲む妖怪 バタフライジジイ（通称：バタジイ）</strong></h3>
-          <figure><img src="バタフライジジイ手配書.png" alt="バタフライジジイの手配書"></figure>
-          <【画像の大きさをスイムイクスペリエンスちゃんと同じ大きさにする】>
-          <div class="text-parts">
-          <h4>  
-            <p>言い伝えによると、栃木県競泳初の全国大会優勝者となったことで、腰に故障を抱えながらも、今もなお、練習を続けて大会にも出場しているという。
-            バタジイは、ある時から筋力トレーニングを取り入れて、タンパク質の多量摂取の影響か、見た目と泳ぎがジジイではない＝人々から妖怪化した と伝わる。</P>
-            <p>主に芳賀町で目撃例が多く、スポーツに真剣に向き合っている人には優しいとの情報もあるが、バタジイへのリスペクトを行わず、逆に攻撃したり、身の程を知らないオトナ相手には、
-            バタジイのバタフライアームで、練習しているフリをして、首にラリアート攻撃をしてくるとの噂がある。</p>
-            <p>好きなこと、好きなものは、清らかな心を持つ人間との交流と、上三川町のらー麺 藤原家のつけ麺、抹茶スイーツ全般が好物で、プール以外の場でも多数の出没情報があるが、
-            プール以外で遭遇できるのはレアなため、遭遇した人間には幸せが訪れるという幸運の妖怪でもある。</p><br>
-            <p>バタジイの口グセは、<mark><strong>「練習する以外で上手く速くなる選手いる？いねーよな！」</strong></mark>（以上は、民明書房刊より）</p>
-            <p>バタフライジジイの出現・目撃・出没情報はインスタグラムで閲覧可能です【後日、インスタＱＲを載せる】</p>
-         </h4>
-          </div>
-        </div>
-
-        <h3>お問い合わせ先</h3>
-        <form action="mailform.php" method="post">
-        <h4>
-　　　　 <p>お名前:<input type="text" name="name" id="name" required></p>
-　　　　 <p>性別<input type="radio" name="sex" value="男" required>男<input type="radio" name="sex" value="女" required>女</p>
-　　　　 <p>メールアドレス:<input type="email" name="email" required></p>
-         <p>依頼される項目<①競泳選手傾向診断----------②レース動画解析---------〇スイマー体型お悩み-------〇宇都宮スイムマスターズ連合の活動について-----〇その他></p>
-　　　　 <p>具体的な悩みごと</p>
-         <p><textarea name="message" cols="50" rows="5" required="required"></textarea></p>
-         <p><input type="submit" value="送信する"></p> </form>
-        </h4>
-      </div></section>
-  </div></main>
-
-<footer>
-  <div class="footer-main"> <a href="index.html" class="team-logo"> <img src="team logo.png" alt="swim experience のロゴ">
+  <!-- ====== ヘッダー ====== -->
+  <header class="header">
+    <a href="index.html" class="logo">
+      <img src="logo.png" alt="OMORI YUJI LOGO">
     </a>
-    <nav class="footer-nav"> <ul>
-        <li><a href="index.html#about">活動のきっかけ</a></li>
-        <li><a href="index.html#about">こんな悩みを持つ競泳選手は、ぜひご相談ください</a></li> <li><a href="index.html#about">活動内容</a></li> <li><a href="index.html#about">エクスペリエンスちゃんとは</a></li>
-        <li><a href="index.html#about">スイム・エクスペリエンスちゃんとは</a></li>
-        <li><a href="index.html#about">栃木のプールに潜む妖怪 バタフライジジイ</a></li>
-        <li><a href="index.html#about">宇都宮スイムマスターズ連合について</a></li>
-        <li><a href="index.html#about">お問い合わせ先</a></li>
-      </ul>
+    <nav class="nav">
+      <a href="#about">ABOUT</a>
+      <a href="#works">WORKS</a>
+      <a href="#contact">CONTACT</a>
     </nav>
-    <p class="copyright">&copy; Copyright 2025/07/14 Y. Omori</p> </div>
+  </header>
 
-  <div id="footer2-parts">
-    <div class="footer2-1-parts">
-      <p><img src="team logo.png" alt="COMPANY"></p>
-      <p>代表メールアドレス：swim exp@outlook.jp お急ぎの方は4yoomori@gmail.com<br>
-      受付：基本、メール、または問い合わせフォームでの受付になります</p>
+  <!-- ====== トップセクション ====== -->
+  <section class="top">
+    <h2>OMORI YUJI OFFICIAL WEBSITE</h2>
+    <p>自然と音楽、そして心をつなぐ表現の世界へ</p>
+  </section>
 
-      <ul class="sns1-parts">
-        <li><a href="#"><i class="fab fa-line"></i></a></li>
-        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-      </ul>
-    </div></div></footer>
+  <!-- ====== コンテンツ ====== -->
+  <div class="content">
+    <h3 id="about">About</h3>
+    <p>このウェブサイトは、音楽家・大森祐司の公式サイトです。作品紹介や活動報告、ギャラリーなどを掲載しています。</p>
 
+    <h3 id="works">Works</h3>
+    <ul>
+      <li>2025年7月から準備を開始し、2026年より本格活動を計画中。</li>
+      <li>現在は自然音を中心にしたサウンドデザイン制作を進行。</li>
+      <li>その他の活動においては地域イベントや映像作品とのコラボレーションも予定。</li>
+    </ul>
 
-<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js"></script>
-<script src='https://torokoid.github.io/shiba/jquery.js?ver=1.12.4'></script>
-<script src="https://torokoid.github.io/shiba/jquery.goup.min.js"></script>
-<script src="https://torokoid.github.io/shiba/my.js"></script>
+    <h3 id="contact">Contact</h3>
+    <p>お問い合わせ・ご依頼は <a href="mailto:contact@example.com">contact@example.com</a> までお願いします。</p>
+  </div>
 
-<div class="pagetop"><a href="#"><i class="fas fa-angle-double-up"></i></a></div>
-
+  <!-- ====== フッター ====== -->
+  <footer>
+    <p>© 2025 OMORI YUJI All Rights Reserved.</p>
+  </footer>
 </body>
 </html>
-<style type="text/css">
 
-/* ヘッダー*/
-.header{
-	width:960px;
-	height:170px;
-	margin:0 auto;
-	display:flex;
-	justify-content:space-between;
-.logo{
-	display:block;
-	img{
-	display:block;
-	height:60px;
-	}
-	}
-
-
-/*トップ*/
-
-.top{
-	width:100%;
-	height:350px;
-	display:flex;
-	justify-content:center;
-	align-items: center;
-        background-image:(down.png);
-	background-repeat:no-repeat;
-	background-size: cover;
-	background-position:center center;
-	background-attachment:fixed;
-	color: #fff;
-	font-weight: 70px;
-	font-size: 48px;
-	line-heiwgt:1.2;
-	text-align: center;
-	margin:100px 0 40px 0;
-	flex-direction: column;
-	position:relative;
-	h2{
-	font-size:48px;
-	font-weight:700;
-      }
- }
-a{
-  display: grid;
-  place-items: center;
-  width: 60px; height: 60px;
-  background-color: #6A9631;
-  border-radius: 50%
-  box-shadow: 0px 12px 20px rgb(0 0 0 / 0.1);
-  position:absolute;
-  left: 50%;
-  bottom: 0;
-  translate: -50% 50%;
-img{
-  width: 24px;height: 24px;
-   }
- }
-}
-
-
-/* ボディ*/
-.body{
-
-
-/* 点滅 */
-.blinking{
--webkit-animation:blink 1.5s ease-in-out infinite alternate;
--moz-animation:blink 1.5s ease-in-out infinite alternate;
-animation:blink 1.5s ease-in-out infinite alternate;
-          }
-@-webkit-keyframes blink{
-                        0% {opacity:0;}
-                        100% {opacity:1;}
-                        }
-@-moz-keyframes blink{
-                     0% {opacity:0;}
-                     100% {opacity:1;}
-                     }
-@keyframes blink{
-                 0% {opacity:0;}
-                 100% {opacity:1;}
-                }
-
-#wrap {background:none} /*PC用の背景はオフ*/
-
-/*背景を表示させる部分*/
-body::before {
-             content:"";
-             display:block;
-             position:fixed;
-             top:0;
-             left:0;
-             z-index:-1;
-             width:100%;
-             height:100vh;
-background:url(haikei.JPG) center/cover no-repeat;
-              -webkit-background-size:cover;/*Android4*/
-              }
-
-a.p:hover {
-          position: relative;
-          text-decoration: none;
-          }
-a.p span {
-          display: none;
-          position: relative;
-          top: -0.5em;
-          left: 2em;
-          }
-a.p:hover span {
-               border: none;
-               display: block;
-               width: 800px;
-               }
-
-
-@media screen and (min-width: 540px),
-screen and (orientation: landscape) {
-                                    p.note { display: none; }
-                                    }
-
-/*ナビ*/
-.nav{
-     color: #fff;
-     text-align: center;
-     height: 200px;
-     background-image: url(../img/hero-background.jpg);
-     background-size: cover;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: center;
-     position: relative;
-h2{
-  font-size: 48px;
-  font-weight: 700;
-  }
-p{
-  font-size: 20px;
-  font-weight: 400;
-  margin-top: 20px;
- }
-a{
-  display: grid;
-  place-items: center;
-  width: 60px; height: 60px;
-  background-color: #6A9631;
-  border-radius: 50%
-  box-shadow: 0px 12px 20px rgb(0 0 0 / 0.1);
-  position:absolute;
-  left: 50%;
-  bottom: 0;
-  translate: -50% 50%;
-img{
-  width: 24px;height: 24px;
-   }
- }
-}
-
-
-</style>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
